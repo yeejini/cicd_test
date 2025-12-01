@@ -29,4 +29,4 @@ jobs:
       - name: Github Variables 사용하기
         run: |
           echo $GITHUB_SHA
-          ehco $GITHUB_REPOSITORY
+          echo $GITHUB_REPOSITORY
