@@ -12,3 +12,16 @@ jobs:
     steps:
       - name: simple-web
         run: echo "This is the first cicd step"
+
+      - name: test-1
+        run: |
+          pwd
+          ls -al
+
+      - name: 파일 생성
+        run: echo "hello world" > test.txt
+
+      - name: test-2
+        run: |
+          ls -al
+          cat test.txt
