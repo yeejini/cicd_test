@@ -33,5 +33,5 @@ jobs:
 
       - name: Github Secret Variables 사용하기
         run: |
-          echo ${{Y_ENV_NAME}}
-          echo ${{MY_ENV_PASSWORD}}
+          echo ${{secrets.MY_ENV_NAME}}
+          echo ${{secrets.MY_ENV_PASSWORD}}
