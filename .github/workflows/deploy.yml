@@ -25,3 +25,8 @@ jobs:
         run: |
           ls -al
           cat test.txt
+
+      - name: Github Variables 사용하기
+        run: |
+          echo $GITHUB_SHA
+          ehco $GITHUB_REPOSITORY
